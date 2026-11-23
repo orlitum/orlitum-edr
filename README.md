@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Platform-Linux-2ea44f?style=flat-square&logo=linux&logoColor=white" alt="Platform Linux" />
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+" />
   <img src="https://img.shields.io/badge/Detection-YARA%20%2B%20Sigma-d9534f?style=flat-square" alt="YARA + Sigma" />
-  <img src="https://img.shields.io/github/license/orlitum/orlitum-edr?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square" alt="License" />
 </p>
 
 ---
