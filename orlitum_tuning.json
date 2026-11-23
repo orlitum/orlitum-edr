@@ -1,0 +1,27 @@
+{
+  "lang": "ru",
+  "params": {
+    "1": "desktop",
+    "2": "desktop",
+    "3": "desktop",
+    "4": "desktop",
+    "5": "desktop",
+    "6": "desktop",
+    "7": "desktop",
+    "8": "desktop",
+    "9": "desktop",
+    "10": "desktop",
+    "11": "desktop",
+    "12": "desktop",
+    "13": "desktop",
+    "14": "desktop",
+    "15": "desktop",
+    "16": "desktop"
+  },
+  "entropy_threshold": 7.3,
+  "large_file_sample_pct": 0.1,
+  "wx_freeze_mode": "standard",
+  "ransomware_canary": true,
+  "lkm_guard": true,
+  "net_response": "alert"
+}

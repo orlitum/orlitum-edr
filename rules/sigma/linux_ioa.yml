@@ -1,0 +1,16 @@
+- id: SIG-LNX-01
+  msg: Web Server Spawns Shell
+  parent: nginx,httpd,apache2,php-fpm,caddy
+  child: sh,bash,dash,zsh,nc,ncat,socat,curl,wget
+- id: SIG-LNX-02
+  msg: DB Server Spawns Shell/Tool
+  parent: mysqld,mariadbd,postgres,redis-server,mongod
+  child: sh,bash,dash,curl,wget,nc,python3,perl
+- id: SIG-LNX-03
+  msg: C2 Tunnel / Proxy
+  child: chisel,ligolo,frpc,ngrok,socat
+  cmd: socks,reverse,exec:
+- id: SIG-LNX-04
+  msg: Memory / Cred Dump
+  child: gcore,procdump,gdb,dd
+  cmd: /proc/,/etc/shadow

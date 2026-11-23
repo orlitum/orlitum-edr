@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+*.db
+*.db-wal
+*.db-shm
+*.jsonl
+secret.key
+pin.vault
+agent_self.sha256
+system_fim.baseline
+whitelist.txt
+quarantine/
